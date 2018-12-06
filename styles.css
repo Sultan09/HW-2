@@ -1,0 +1,140 @@
+body {
+	padding-top: 0;
+	color: white;
+	font: 17px/1.6 'Open Sans', sans-serif;
+	background-image: url(03.jpg);
+	background-size: cover;	/* Фон на всю площадь при масштабировании страницы */
+	margin: 0;
+}
+.window {
+	width: 800px;
+	height: 600px;
+	border: 2px solid white;
+	margin: 50px auto;
+}
+
+							/*ШАПКА ОКНА - НАЧАЛО*/
+.window-top {
+	height: 68px;
+	border-bottom: 2px solid white;
+	padding-left: 20px;
+}
+.first-line {
+	display: flex;
+	font-size: 25px;
+	justify-content: space-between;
+	font-family: 'Black And White Picture', sans-serif;
+	color: goldenrod
+}
+.del {
+	padding-top: 7px;
+	padding-right: 10px
+}
+.second-line {
+	font-size: 15px;
+	font-family: 'Pacifico', cursive;
+	color: springgreen;
+}
+.title-data {
+	padding-left: 10px 
+}
+							/*ШАПКА ОКНА - КОНЕЦ*/
+
+.window-main {
+	overflow-y: scroll;		/*Прокрутка по горизонтали*/
+	height: 530px;
+}
+
+
+
+
+.message {
+	display: flex;
+	font-family: 'Indie Flower', cursive;
+	align-items: center;
+}
+
+.shortinfo {
+	display: flex;
+	margin: 0;
+	align-items: center;
+	padding: 0 15px 0 15px;
+}
+
+.shortinfo:first-child {
+	padding-top: 5px;
+}
+
+.fullinfo {
+	border-left: 1px solid white;
+	padding-left: 7px;
+	
+}
+
+.textmessage {
+	border: 1px solid white;
+	margin-left: 10px;
+	padding: 10px;
+	width: 560px;
+	
+	
+}
+
+.name {
+	margin-left: 10px;
+	font-size: 18px;
+	padding: 0;
+}
+
+.name:first-child {
+	padding-top: 5px;
+}
+
+.date {
+	padding-left: 5px;
+}
+
+.initials1,.initials2,.initials3 {	/*Для создания круга вокруг текста*/
+	border: 2px solid;
+	border-radius: 50px;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	font-family: 'Gamja Flower', cursive;
+	font-size: 35px;
+	
+	
+}
+.initials1 {
+	color: aqua;
+	border-color: greenyellow;
+	
+}
+.initials2 {
+	color: greenyellow;
+	border-color: tomato;
+}
+.initials3 {
+	color: tomato;
+	border-color: aqua;
+}
+
+
+
+
+
+
+
+/* ШРИФТЫ
+font-family: 'Indie Flower', cursive;
+
+font-family: 'Black And White Picture', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Gamja Flower', cursive;
+*/
+
+
+
+
+
